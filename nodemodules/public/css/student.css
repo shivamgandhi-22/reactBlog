@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.header-border
+{
+   border: 2px solid rgb(170, 211, 184);
+}
+.left
+{
+    border-radius: 10px;
+}
+@media screen and (max-width: 500px) {
+    #main
+    {
+        justify-content: center;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+}
+@media screen and (max-width: 700px) {
+  .table
+{
+    min-width: 500px !important;
+}
+.table-container
+{
+    display: flex;
+    overflow: scroll;
+    align-items: flex-start !important;
+}
+tr{
+    line-height: 2em;
+  }
+}

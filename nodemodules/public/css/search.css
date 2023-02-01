@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+button 
+{
+    padding: 7px 20px !important;
+    margin: 1vw !important;
+    border-radius: 5px !important;
+}
+.header-border
+{
+   border: 2px solid rgb(170, 211, 184);
+}
+.form-container
+{
+    height: 80vh !important;
+}
+@media screen and (max-width: 500px) {
+    form
+    {
+       height: 30vh !important;
+       width: 87vw !important;
+    }
+    .form-container
+    {
+        width: 100vw !important;
+    }
+}
+@media screen and (min-width: 500px) {
+    form
+    {
+       height: 30vh !important; 
+    }
+}
